@@ -12,6 +12,7 @@ function DisplayComponent() {
         <>
           <p>Name: {user.name}</p>
           <p>Email: {user.email}</p>
+          <p>Bio: {user.bio}</p>
         </>
       ) : (
         <p>No profile information available</p>
