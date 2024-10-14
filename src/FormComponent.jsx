@@ -1,5 +1,5 @@
 import { useState, useContext } from 'react';
-import UserContext from './UserContext';  // No curly braces for default export
+import { UserContext }  from './UserContext';  // No curly braces for default export
 
 function FormComponent() {
   const { setUser } = useContext(UserContext);

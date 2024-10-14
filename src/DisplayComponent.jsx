@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import UserContext from './UserContext';  // Import UserContext without curly braces
+import { UserContext } from './UserContext';  // Import UserContext curly braces
 
 // Example usage:
 function DisplayComponent() {
